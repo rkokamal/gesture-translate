@@ -1,9 +1,5 @@
-#
-#
-#
-
 ifeq ($(TOPSRCDIR),)
-  export TOPSRCDIR = $(shell pwd)
+	export TOPSRCDIR = $(shell pwd)
 endif
 
 .PHONY: test clean
